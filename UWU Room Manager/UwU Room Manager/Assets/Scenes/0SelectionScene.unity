@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd200351cf6f834395b77d3e2aed818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nextscene: StudentMap
+  Nextscene: 
 --- !u!1 &139705309
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd200351cf6f834395b77d3e2aed818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nextscene: LogIn
+  Nextscene: 1LogIn
 --- !u!1 &1209147024
 GameObject:
   m_ObjectHideFlags: 0
