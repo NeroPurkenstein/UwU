@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 35
+  controlID: 17
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 80
+  controlID: 62
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 33
+  controlID: 15
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 34
+  controlID: 16
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -488,14 +488,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Image
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\GitHub\UwU\UWU Room Manager\UwU Room Manager
+  m_LastProjectPath: C:\Users\celes\Documents\GitHub\UwU\UWU Room Manager\UwU Room
+    Manager
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e2f0000
-    m_LastClickedID: 12062
-    m_ExpandedIDs: 000000003c2d000000ca9a3b
+    m_SelectedIDs: 2a2f0000
+    m_LastClickedID: 12074
+    m_ExpandedIDs: 00000000482d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,7 +524,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c2d0000
+    m_ExpandedIDs: 00000000482d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,8 +551,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000aa3e00004c320000263500008c32000044340000b4390000443a0000a631000070360000f62e00001a3a0000cc320000a0320000ba3d000084310000d64d0000962e00007030000000000000ec2e0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000aa3e00004c320000263500008c32000044340000b4390000443a0000a631000070360000f62e00001a3a0000cc320000a0320000ba3d000084310000d64d0000962e000070300000ec2e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +617,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 316
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -646,9 +647,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c8310000
-      m_LastClickedID: 12744
-      m_ExpandedIDs: 72fbffff
+      m_SelectedIDs: cac3ffff
+      m_LastClickedID: -15414
+      m_ExpandedIDs: d8bfffffcac3ffff5ec8ffffeadbffff96e3ffffbee3ffff66f8ffffc8faffff6afbffffb2320000743b0000963b0000a83b0000e43b0000ee3b0000f83b00001c3c0000463c0000503c00006e3c0000723c00007c3c00008e3c0000983c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -664,7 +665,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 13}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -708,9 +709,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -10}
+    m_Target: {x: 428.7641, y: 245.01923, z: -1414.7998}
     speed: 2
-    m_Value: {x: -0.00000007557061, y: -0.00000019255748, z: -10}
+    m_Value: {x: 428.7641, y: 245.01923, z: -1414.7998}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -743,9 +744,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22
+    m_Target: 187.10162
     speed: 2
-    m_Value: 22
+    m_Value: 187.10162
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -808,10 +809,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -216.8
-    m_HBaseRangeMax: 216.8
-    m_VBaseRangeMin: -122
-    m_VBaseRangeMax: 122
+    m_HBaseRangeMin: -271
+    m_HBaseRangeMax: 271
+    m_VBaseRangeMin: -152.40001
+    m_VBaseRangeMax: 152.40001
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -850,7 +851,7 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 677.5, y: 465}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_LowResolutionForAspectRatios: 00000001000000000000
   m_XRRenderMode: 0
 --- !u!114 &22
 MonoBehaviour:
