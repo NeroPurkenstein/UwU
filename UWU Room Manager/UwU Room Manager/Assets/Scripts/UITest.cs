@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class UITest : MonoBehaviour
 {
+    public float opacity;
     Color col;
     PointerEventData pointerEventData;
     List<RaycastResult> raycastResultList;
@@ -14,6 +15,7 @@ public class UITest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        opacity = 0.2f;
         Floors = GameObject.FindGameObjectsWithTag("Floor");
         foreach (var g in Floors)
         {
@@ -74,7 +76,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "2F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "2F")
@@ -93,7 +95,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "3F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "3F")
@@ -112,7 +114,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "4F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "4F")
@@ -131,7 +133,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "5F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "5F")
@@ -150,7 +152,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "6F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "6F")
@@ -168,7 +170,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "7F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "7F")
@@ -186,7 +188,7 @@ public class UITest : MonoBehaviour
                     if (Floors[i].gameObject.name != "8F")
                     {
                         col = Floors[i].GetComponent<Image>().color;
-                        col.a = 0.2f;
+                        col.a = opacity;
                         Floors[i].GetComponent<Image>().color = col;
                     }
                     if (Floors[i].gameObject.name == "8F")
