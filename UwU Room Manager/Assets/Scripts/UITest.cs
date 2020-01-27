@@ -29,7 +29,7 @@ public class UITest : MonoBehaviour
         if(IsMouseOverUIDetect())
         {
             //Debug.Log("Mouse on UI");
-            floorEdit();
+            floorEdit();            
         }
         else if(!IsMouseOverUIDetect())
         {
