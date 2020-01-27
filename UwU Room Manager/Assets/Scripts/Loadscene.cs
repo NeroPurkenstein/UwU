@@ -10,4 +10,14 @@ public class Loadscene : MonoBehaviour
     {
         SceneManager.LoadScene(Nextscene);
     }
+
+    public void TeacherMenu()
+    {
+        SceneManager.LoadScene(sceneName: "2FloorSelection");
+    }
+
+    public void StudentMenu()
+    {
+        SceneManager.LoadScene(sceneName: "2FloorSelectionStudent");
+    }
 }
